@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fisioterapia & Terapias Manuais</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f7faf8;color:#243b34;line-height:1.6}
+header{background:#145c4b;color:white;padding:24px 6%;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}
+header h2{margin:0}
+nav a{color:white;margin:8px;text-decoration:none}
+.hero{padding:65px 7%;background:linear-gradient(135deg,#e0f3e9,#f7faf8);text-align:center}
+.hero h1{font-size:clamp(32px,5vw,52px);line-height:1.15;color:#145c4b}
+.hero p{max-width:650px;margin:20px auto;color:#52665e}
+.btn{display:inline-block;background:#16835f;color:white;padding:13px 22px;border-radius:30px;text-decoration:none;font-weight:bold;margin:8px 4px}
+section{padding:55px 7%}
+h2.titulo{text-align:center;color:#145c4b;font-size:30px}
+.intro{text-align:center;color:#64756d;margin-bottom:30px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.card{background:white;padding:25px;border-radius:18px;border:1px solid #dce9e1;box-shadow:0 5px 18px #183c3010}
+.card h3{color:#145c4b;margin-top:0}
+.preco{font-size:25px;font-weight:bold;color:#16835f}
+.card li{margin:7px 0}
+.pacotes{background:#eaf5ef}
+.cidades{max-width:750px;margin:auto;background:white;border-radius:16px;padding:15px 25px}
+.cidade{display:flex;justify-content:space-between;gap:15px;padding:12px 0;border-bottom:1px solid #e1eae4}
+.cidade strong{color:#16835f;white-space:nowrap}
+.aviso{font-size:14px;color:#785a24}
+.contato{background:#145c4b;color:white;text-align:center}
+.contato h2{font-size:32px}
+.contato p{max-width:600px;margin:15px auto}
+.contato .btn{background:white;color:#145c4b}
+footer{text-align:center;padding:22px;background:#103f34;color:white}
+@media(max-width:500px){header{justify-content:center;text-align:center}.cidade{font-size:14px}}
+</style>
+</head>
+<body>
+<header>
+  <h2>✚ Fisioterapia & Terapias Manuais</h2>
+  <nav>
+    <a href="#servicos">Serviços</a>
+    <a href="#pacotes">Pacotes</a>
+    <a href="#cidades">Cidades</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <p>ATENDIMENTO INDIVIDUALIZADO E DOMICILIAR</p>
+  <h1>Mais movimento,<br>cuidado e bem-estar.</h1>
+  <p>Fisioterapia e terapias manuais com atenção às necessidades de cada paciente. Entre em contato para consultar horários e agendar seu atendimento.</p>
+  <a class="btn" href="https://wa.me/5598985995807?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20atendimento." target="_blank">Agendar pelo WhatsApp</a>
+</div>
+
+<section id="servicos">
+  <h2 class="titulo">Nossos serviços</h2>
+  <p class="intro">Confira os atendimentos e valores.</p>
+  <div class="cards">
+    <div class="card">
+      <h3>Fisioterapia Geral</h3>
+      <div class="preco">R$ 120,00</div>
+      <p>Atendimento nas áreas de:</p>
+      <ul>
+        <li>Traumatologia</li><li>Neurofuncional</li>
+        <li>Cardiorrespiratória</li><li>Desportiva</li><li>Geriátrica</li>
+      </ul>
+      <p><strong>Avaliação inicial gratuita</strong> inclusa no primeiro atendimento.</p>
+      <a class="btn" href="https://wa.me/5598985995807?text=Ol%C3%A1!%20Quero%20agendar%20Fisioterapia%20Geral." target="_blank">Agendar</a>
+    </div>
+
+    <div class="card">
+      <h3>Drenagem Linfática</h3>
+      <div class="preco">R$ 150,00</div>
+      <p>⏱ Duração: 1 hora.</p>
+      <p>Atendimento em São Luís e demais localidades conforme disponibilidade.</p>
+      <a class="btn" href="https://wa.me/5598985995807?text=Ol%C3%A1!%20Tenho%20interesse%20em%20Drenagem%20Linf%C3%A1tica." target="_blank">Agendar</a>
+    </div>
+
+    <div class="card">
+      <h3>Liberação Miofascial + Ventosaterapia</h3>
+      <div class="preco">R$ 90,00</div>
+      <p>⏱ Duração: 30 minutos.</p>
+      <a class="btn" href="https://wa.me/5598985995807?text=Ol%C3%A1!%20Quero%20agendar%20Libera%C3%A7%C3%A3o%20Miofascial%20e%20Ventosaterapia." target="_blank">Agendar</a>
+    </div>
+
+    <div class="card">
+      <h3>Pacote Terapêutico Completo</h3>
+      <div class="preco">R$ 120,00</div>
+      <p>⏱ Duração: 40 minutos a 1 hora.</p>
+      <ul>
+        <li>Massoterapia</li><li>Liberação Miofascial</li>
+        <li>Ventosaterapia</li><li>Avaliação Postural e Motora</li>
+        <li>RPG (Reeducação Postural Global)</li>
+      </ul>
+      <a class="btn" href="https://wa.me/5598985995807?text=Ol%C3%A1!%20Quero%20saber%20sobre%20o%20Pacote%20Terap%C3%AAutico%20Completo." target="_blank">Consultar</a>
+    </div>
+  </div>
+</section>
+
+<section class="pacotes" id="pacotes">
+  <h2 class="titulo">Pacotes de sessões</h2>
+  <p class="intro">Disponíveis para fisioterapia e terapias manuais.</p>
+  <div class="cards">
+    <div class="card"><h3>5 sessões</h3><p>Sem desconto.</p></div>
+    <div class="card"><h3>10 sessões</h3><p>5% de desconto.</p></div>
+    <div class="card"><h3>15 sessões</h3><p>5% de desconto.</p></div>
+    <div class="card"><h3>20 sessões</h3><p>10% de desconto.</p></div>
+    <div class="card"><h3>Até 50 sessões</h3><p>Pacotes personalizados.</p></div>
+  </div>
+  <p class="intro">Ideais para tratamentos contínuos, reabilitação e acompanhamento terapêutico. Consulte os valores finais pelo WhatsApp.</p>
+</section>
+
+<section id="cidades">
+  <h2 class="titulo">Atendimento domiciliar</h2>
+  <p class="intro">Deslocamento incluso nos valores informados.</p>
+  <div class="cidades">
+    <div class="cidade"><span>São Luís</span><strong>R$ 120,00*</strong></div>
+    <div class="cidade"><span>Matões do Norte</span><strong>R$ 120,00</strong></div>
+    <div class="cidade"><span>Miranda do Norte</span><strong>R$ 150,00</strong></div>
+    <div class="cidade"><span>Cantanhede</span><strong>R$ 160,00</strong></div>
+    <div class="cidade"><span>Pirapemas</span><strong>R$ 250,00</strong></div>
+    <div class="cidade"><span>Arari</span><strong>R$ 250,00</strong></div>
+    <div class="cidade"><span>Vitória do Mearim</span><strong>R$ 300,00</strong></div>
+    <p class="aviso">*Em São Luís, o valor está sujeito a ajuste conforme o bairro ou a localidade. Confirme o serviço e o valor antes de agendar.</p>
+  </div>
+</section>
+
+<section class="contato" id="contato">
+  <h2>Vamos agendar seu atendimento?</h2>
+  <p>Entre em contato para tirar dúvidas, consultar disponibilidade e combinar seu atendimento.</p>
+  <h3>WhatsApp: (98) 98599-5807</h3>
+  <a class="btn" href="https://wa.me/5598985995807?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20atendimento." target="_blank">Conversar e agendar</a>
+</section>
+
+<footer>
+  <p>Fisioterapia & Terapias Manuais</p>
+  <p>Atendimento domiciliar com conforto, qualidade e cuidado.</p>
+</footer>
+</body>
+</html>
